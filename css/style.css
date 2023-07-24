@@ -77,6 +77,20 @@ header{
 }
 
 
+.button{
+    display: inline-block;
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
 
 .banner{
     background-image: url(../imagens/bg.jpg);
@@ -122,19 +136,6 @@ header{
     margin-top: 20px;
 }
 
-.banner a{
-    display: block;
-    background-color: #B28756;
-    color: white;
-    text-transform: uppercase;
-    font-size: 12px;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
 .banner .sliders--pointers{
     width: 100vw;
     height: 20px;
@@ -157,6 +158,9 @@ header{
 .banner .pointer.active{
     background-color: #B28756;
 }
+
+
+
 
 .default{
     padding: 50px 0px;
@@ -183,15 +187,14 @@ header{
 .default .section-body{
     margin: auto;
     max-width: 1140px;
-    height: 100px;
-    background-color: #CCC;
 }
 
 .default.light{
-    background-color: #f7f7f7;
+    background-color: #F7F7F7;
 }
 
-.default.light .section-title{
+.default.light .section-title,
+.default.light .section-body{
     color: black;
 }
 
@@ -199,10 +202,36 @@ header{
     background-color: black;
 }
 
-.default.dark .section-title{
+.default.dark .section-title,
+.default.dark .section-body{
     color: white;
 }
 
-.default.dark .section-desc{
-    color: #FFF;
+
+
+/*CSS DE ARÉAS ESPECÍFICAS*/
+
+
+.section-aboutUs{
+    display: flex;
+}
+
+.section-aboutUs--left{
+    flex: 1;
+}
+
+.section-aboutUs--left p{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.section-aboutUs--right{
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutUs--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
