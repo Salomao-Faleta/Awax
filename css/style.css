@@ -402,9 +402,54 @@ header{
     height: 100%;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     flex-direction: column;
+    padding: 30px;
 }
+
+.section-team--avatar{
+    width: 160px;
+    height: auto;
+}
+
+.section-team--name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.section-team--role{
+    margin-top: 15px;
+    color: #999;
+    font-size: 12px;
+}
+
+.section-team--social{
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-team--social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: #555;
+    border-radius: 50%;
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.section-team--social a:hover{
+    background-color: #B28756;
+}
+
+
+
+
+
 
 
 .section-team--area  .sliders--pointers{
