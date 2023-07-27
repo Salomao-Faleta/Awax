@@ -37,6 +37,10 @@ header{
     background-color: #B28756;
 }
 
+.menu-opener{
+    display: none;
+}
+
 .menu{
     flex: 1;
     display: flex;
@@ -69,6 +73,7 @@ header{
 
 .menu li a.active{
     color: #B28756;
+    border-bottom: 6px solid #B28756;
 }
 
 .menu li a:hover{
@@ -518,3 +523,105 @@ header{
     height: auto;
 }
 
+
+
+
+
+/*Responsividade*/
+
+@media (min-width: 450px) and (max-width: 800px){
+
+    .menu-opener{
+        width: 50px;
+        padding: 5px;
+        margin-right: 30px;   
+        display: block;
+    }
+        
+    nav{
+        position: absolute;
+        z-index: 999;
+        background-color: rgba(0,0,0, 0.9);
+        width: 100%;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0px;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li a{
+        font-weight: bolder;
+        height: 100px;
+        font-size: 25px;
+        border: 0;
+    }
+
+    .menu li.active a{
+        border: 0;
+        color: #B28756;
+    }
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .section-aboutUs{
+        flex-direction: column;
+    }
+
+    .section-aboutUs--left{
+        margin: 30px;
+    }
+
+    .section-aboutUs--right{
+        width: auto;
+    }
+
+    .section-services{
+        flex-wrap: wrap;
+    }
+
+    .section-service{
+        min-width: 50%;
+        margin: 15px 0px;
+    }
+
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    .section-team{
+        max-width: 560px;
+    }
+
+
+
+    .section-map{
+        padding: 0px 30px;
+    }
+
+    .section-map--area{
+        width: auto;
+    }
+
+    .section-map--info{
+        width: auto;
+    }
+
+    .section-map--info-item{
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+}
