@@ -492,7 +492,7 @@ header{
     margin: auto;
 }
 
-.sectioon-map--info{
+.section-map--info{
     width: 50%;
     padding: 30px;
     background-color: white;
@@ -519,7 +519,7 @@ header{
 }
 
 .section-map--info-item img{
-   
+    width: auto;
     height: auto;
 }
 
