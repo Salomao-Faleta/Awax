@@ -519,7 +519,7 @@ header{
 }
 
 .section-map--info-item img{
-    width: px;
+   
     height: auto;
 }
 
@@ -527,9 +527,9 @@ header{
 
 
 
-/*Responsividade*/
+/*Responsividade - Para tablet*/
 
-@media (min-width: 450px) and (max-width: 800px){
+@media (min-width: 570px) and (max-width: 900px){
 
     .menu-opener{
         width: 50px;
@@ -546,6 +546,7 @@ header{
         height: calc(100vh - 100px);
         top: 100px;
         right: 0px;
+        display: none;
     }
 
     .menu ul{
@@ -610,6 +611,7 @@ header{
 
     .section-map--info{
         width: auto;
+        background-color: white;
     }
 
     .section-map--info-item{
@@ -617,7 +619,143 @@ header{
     }
 
 
+}
 
+/*Para celular*/
+
+@media (max-width: 570px){
+
+    .menu-opener{
+        width: 50px;
+        padding: 5px;
+        margin-right: 30px;   
+        display: block;
+    }
+        
+    nav{
+        position: absolute;
+        z-index: 999;
+        background-color: rgba(0,0,0, 0.9);
+        width: 100%;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0px;
+        display: none;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li a{
+        font-weight: bolder;
+        height: 80px;
+        font-size: 18px;
+        border: 0;
+    }
+
+    .menu li.active a{
+        border: 0;
+        color: #B28756;
+    }
+
+    .logo{
+        margin-left: 30px;
+    }
+
+
+    .banner h1{
+        font-size: 30px;
+    }
+
+
+    .section-aboutUs--right{
+        margin: 0px 10px;
+    }
+
+    .section-aboutUs--right img {
+        width: 100%;
+    }
+
+    .section-aboutUs{
+        flex-direction: column;
+    }
+
+    .section-aboutUs--left{
+        margin: 30px;
+    }
+
+    .section-aboutUs--right{
+        width: auto;
+    }
+
+
+
+    .section-services{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .section-service{
+        min-width: 100%;
+        margin: 20px 0px;
+    }
+
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+
+
+    .section-projects--filters{
+        margin: 0px 30px;
+    }
+
+    .section-projects--filters ul{
+        text-align: center;
+    }
+
+    .section-projects--photo {
+        width: 320px;
+    }
+
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+
+
+
+
+    .section-team{
+        max-width: 280px;
+    }
+
+
+
+    .section-map{
+        padding: 0px;
+        padding-bottom: 300px;
+    }
+
+    .section-map--area{
+        width: auto;
+    }
+
+    .section-map--info{
+        width: auto;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .section-map--info-item{
+        margin-bottom: 30px;
+    }
+
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
 
 
 
