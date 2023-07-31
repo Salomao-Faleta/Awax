@@ -31,3 +31,21 @@ sr.reveal('.section-map',{
     duration: 1500,
     delay: 250
 })
+
+//parte do menu
+
+function menuToogle(){
+    let menuArea = document.querySelector('#menu-area');
+
+    menuArea.style.transition = '2.5s';
+
+    if(menuArea.style.display == 'block'){
+        menuArea.style.display = 'none'
+    }else{
+        menuArea.style.display = 'block'
+    }
+
+   
+
+
+}

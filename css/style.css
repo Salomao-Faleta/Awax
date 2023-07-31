@@ -37,7 +37,7 @@ header{
     background-color: #B28756;
 }
 
-.menu-opener{
+.menu-img{
     display: none;
 }
 
@@ -68,7 +68,7 @@ header{
     align-items: center;
     font-weight: 500;
     border-bottom: 5px solid transparent;
-
+    
 }
 
 .menu li a.active{
@@ -622,13 +622,18 @@ h1, h2, .default.light, .default.dark, .section-map{
     visibility: hidden;
 }
 
+nav{
+    transition: all 0.5s ease-in-out;
+
+}
+
 
 
 /*Responsividade - Para tablet*/
 
 @media (min-width: 570px) and (max-width: 900px){
 
-    .menu-opener{
+    .menu-img{
         width: 50px;
         padding: 5px;
         margin-right: 30px;   
@@ -722,7 +727,7 @@ h1, h2, .default.light, .default.dark, .section-map{
 
 @media (max-width: 570px){
 
-    .menu-opener{
+    .menu-img{
         width: 50px;
         padding: 5px;
         margin-right: 30px;   
