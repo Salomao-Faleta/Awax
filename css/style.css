@@ -728,10 +728,6 @@ h1, h2, .default.light, .default.dark, .section-map{
         margin-right: 30px;   
         display: block;
     }
-
-    .banner h2{
-        font-size: 20px;
-    }
         
     nav{
         position: absolute;

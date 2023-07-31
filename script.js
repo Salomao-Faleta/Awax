@@ -31,4 +31,3 @@ sr.reveal('.section-map',{
     duration: 1500,
     delay: 250
 })
-
