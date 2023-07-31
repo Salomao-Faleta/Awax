@@ -526,6 +526,80 @@ header{
 
 
 
+.section-feedback .sliders{
+    max-width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+.section-feedback .slide{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.section-feedback .slideArea{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.section-feedback--name{
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-feedback--cargo{
+    font-size: 14px;
+    color: #555;
+    font-weight: bolder;
+
+}
+
+.section-feedback .quote{
+    margin: 20px 0px;
+}
+
+.section-feedback--desc{
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    line-height: 25px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+.section-feedback .sliders--pointers{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-feedback .pointer{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #B28756;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.section-feedback .pointer.active{
+    background-color: #B28756;
+}
+
+
+
+
 
 /*Responsividade - Para tablet*/
 
