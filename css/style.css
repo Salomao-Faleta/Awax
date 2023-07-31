@@ -103,6 +103,7 @@ header{
     background-size: cover;
     height: calc(100vh - 100px);
     overflow: hidden;
+    background-attachment: fixed;
 }
 
 .banner .sliders{
@@ -616,9 +617,10 @@ header{
 }
 
 
-
-
-
+/*Aqui Estão as tags que vão ter o efeito Reveal com o Js*/
+h1, h2, .default.light, .default.dark, .section-map{
+    visibility: hidden;
+}
 
 
 
@@ -725,6 +727,10 @@ header{
         padding: 5px;
         margin-right: 30px;   
         display: block;
+    }
+
+    .banner h2{
+        font-size: 20px;
     }
         
     nav{
