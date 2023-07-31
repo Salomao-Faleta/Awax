@@ -597,6 +597,27 @@ header{
     background-color: #B28756;
 }
 
+.section-brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+}
+
+.section-brands--area{
+    width: 120px;
+    height: 70px;
+    margin: 15px 20px;
+}
+
+.section-brands img{
+    width: inherit;
+    height: inherit;
+}
+
+
+
+
 
 
 
