@@ -617,6 +617,70 @@ header{
 }
 
 
+
+.section-price{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.section-price--area{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-price--area h4{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.section-price--area h6{
+    font-size: 10px;
+    color: #ddd;
+}
+
+.section-price--area-info{
+    padding: 5px 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.section-price--area-info span{
+    font-size: 5px;
+}
+
+.section-price--area .button-price{
+    background-color: #4d4d4d;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
+
 /*Aqui Estão as tags que vão ter o efeito Reveal com o Js*/
 h1, h2, .default.light, .default.dark, .section-map{
     visibility: hidden;
