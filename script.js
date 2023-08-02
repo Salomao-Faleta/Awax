@@ -1,14 +1,14 @@
 window.sr = ScrollReveal({reset: true});
 
 //do main
-sr.reveal('h1', {
+sr.reveal('.title', {
     duration: 2000,
     rotate: {x: 0, y: 80, z: 0},
     delay: 250
 });
 
 //do main
-sr.reveal('h2',{
+sr.reveal('.tels',{
     duration: 2000,
     rotate: {x: 0, y: 80, z: 0},
     delay: 250

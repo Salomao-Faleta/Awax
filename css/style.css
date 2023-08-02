@@ -682,7 +682,7 @@ header{
 
 
 /*Aqui Estão as tags que vão ter o efeito Reveal com o Js*/
-h1, h2, .default.light, .default.dark, .section-map{
+.title, .tels, .default.light, .default.dark, .section-map{
     visibility: hidden;
 }
 
