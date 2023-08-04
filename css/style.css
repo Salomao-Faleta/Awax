@@ -679,6 +679,65 @@ header{
 
 
 
+.section-premium{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-premium--left{
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: red;
+}
+
+.section-premium--right{
+    flex: 1;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.section-premium--right-area{
+    padding: 8px;
+}   
+
+
+.section-premium--right-area .header{
+    height: auto;
+    padding: 10px;
+}
+
+
+.section-premium--right-area .header img{
+    margin-right: 10px;
+}
+
+.section-premium--right-area .header h3{
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+
+.section-premium--right-area span{
+    color: #999;
+    font-size: 14px;
+}
+
+.section-premium--right-area p{
+    color: #999;
+    font-size: 14px;
+    margin: 8px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
 
 
 /*Aqui Estão as tags que vão ter o efeito Reveal com o Js*/
