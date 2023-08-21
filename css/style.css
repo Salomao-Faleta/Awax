@@ -691,13 +691,11 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
-    background-color: red;
 }
 
 .section-premium--right {
     flex: 1;
     margin: 10px;
-    background-color: blueviolet;
 }
 
 .section-premium--right-area {
