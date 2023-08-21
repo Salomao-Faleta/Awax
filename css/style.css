@@ -274,6 +274,9 @@ header {
     margin-top: 15px;
 }
 
+
+
+
 .section-projects {
     display: flex;
     flex-direction: column;
@@ -754,6 +757,40 @@ header {
     background-color: #B28756;
 }
 
+
+
+.section-some {
+    display: flex;
+}
+
+.section-someFacts {
+    flex: 1;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.section-some span{
+    color: #B28756;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.section-some h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-someFacts h4 span{
+    visibility: hidden;
+}
+
+.section-some p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 15px;
+}
 
 
 
