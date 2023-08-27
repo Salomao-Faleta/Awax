@@ -711,9 +711,8 @@ header {
     padding: 10px;
 }
 
-
 .section-premium--right-area .header img {
-    margin-right: 10px;
+    width: inherit;
 }
 
 .section-premium--right-area .header h3 {
@@ -873,7 +872,8 @@ nav {
         flex-wrap: wrap;
     }
 
-    .section-service {
+    .section-service,
+    .section-some {
         min-width: 50%;
         margin: 15px 0px;
     }
@@ -979,7 +979,8 @@ nav {
 
 
 
-    .section-services {
+    .section-services,
+    .section-some {
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -1013,10 +1014,12 @@ nav {
     }
 
 
-
-
     .section-team {
         max-width: 280px;
+    }
+
+    .section-premium--right-area #section-premium--img{
+        display: none;
     }
 
 
