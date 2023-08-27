@@ -694,7 +694,14 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
+    width: 100vw;
 }
+
+
+.section-premium--left img{
+    width: 100%;
+}
+
 
 .section-premium--right {
     flex: 1;
@@ -976,6 +983,23 @@ nav {
     .section-aboutUs--right {
         width: auto;
     }
+
+    .section-premium{
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .section-premium--left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .section-premium--left img{
+        width: auto;
+    }
+
 
 
 
