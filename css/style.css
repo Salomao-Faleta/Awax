@@ -796,6 +796,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 0px 20px;
+    flex-wrap: wrap;
 }
 
 .section-social-item-SE.ES{
@@ -839,6 +840,48 @@ header {
 .section-social-item img#pinterest{
     background-color: #DF001C;
 }
+
+
+
+form{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.form-container{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #faf9f9d7;
+    border-radius:20px ;
+}
+
+.form-container .input{
+    margin: 10px;
+    height: 40px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    width: 100%;
+    border: 3px transparent #999;
+}
+
+.form-container .input-area{
+    margin: 10px;
+    outline: none;
+    font-size: 17px;
+    border: 3px transparent #999;
+}
+
+.form-container .input:focus:focus,
+.form-container .input-area:focus{
+    border: 3px solid #999;
+}
+
+
+
 
 /*Aqui Estão as tags que vão ter o efeito Reveal com o Js*/
 .title,
@@ -946,6 +989,11 @@ nav {
 
     .section-map--info-item {
         margin-bottom: 30px;
+    }
+
+    
+    .form-container{
+        max-width: 400px;
     }
 
 
@@ -1068,6 +1116,11 @@ nav {
     
     .section-premium--left img{
         width: 250px;
+    }
+
+    
+    .form-container{
+        max-width: 250px;
     }
 
 
