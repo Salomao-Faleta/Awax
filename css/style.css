@@ -791,7 +791,54 @@ header {
     margin-top: 15px;
 }
 
+.section-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 20px;
+}
 
+.section-social-item-SE.ES{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.section-social-item-SE.ES p{
+    color: gray;
+    margin-left: 15px;
+}
+
+.section-social-item{
+    border-radius: 50%;
+}
+
+.section-social-item img{
+    width: auto;
+    height: auto;
+    border-radius: 50%; 
+    padding: 10px;
+}
+
+.section-social-item img#twitter{
+    background-color: #50ABF1;
+}
+
+.section-social-item img#linkedin{
+    background-color: #2967B0;
+}
+
+.section-social-item img#facebook{
+    background-color: #4664A5;
+}
+
+.section-social-item img#googleplus{
+    background-color: #E84940 ;
+}
+
+.section-social-item img#pinterest{
+    background-color: #DF001C;
+}
 
 /*Aqui Estão as tags que vão ter o efeito Reveal com o Js*/
 .title,
